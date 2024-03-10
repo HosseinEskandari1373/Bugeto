@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D72D06C-F64D-411D-80DE-164D7D5CD885}|Practice01_GetInput\u0026Sum\\Practice01_GetInput\u0026Sum.csproj|c:\\users\\payanet\\source\\repos\\github\\learns\\bugeto\\bugeto_learns\\practice01_getinput\u0026sum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D72D06C-F64D-411D-80DE-164D7D5CD885}|Practice01_GetInput\u0026Sum\\Practice01_GetInput\u0026Sum.csproj|solutionrelative:practice01_getinput\u0026sum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{558DE8E7-E47A-4C0F-B2B0-88CDF160703C}|Practice02_IF_Example\\Practice02_IF_Example.csproj|c:\\users\\payanet\\source\\repos\\github\\learns\\bugeto\\bugeto_learns\\practice02_if_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{558DE8E7-E47A-4C0F-B2B0-88CDF160703C}|Practice02_IF_Example\\Practice02_IF_Example.csproj|solutionrelative:practice02_if_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice01_GetInput\u0026Sum\\Program.cs",
-              "RelativeDocumentMoniker": "Practice01_GetInput\u0026Sum\\Program.cs",
-              "ToolTip": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice01_GetInput\u0026Sum\\Program.cs",
-              "RelativeToolTip": "Practice01_GetInput\u0026Sum\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "DocumentMoniker": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Program.cs",
+              "RelativeDocumentMoniker": "Practice02_IF_Example\\Program.cs",
+              "ToolTip": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Program.cs",
+              "RelativeToolTip": "Practice02_IF_Example\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAD4vzcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T19:06:34.152Z",
+              "WhenOpened": "2024-03-10T19:37:30.2Z",
               "EditorCaption": ""
             }
           ]
