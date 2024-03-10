@@ -1,0 +1,15 @@
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\bin\Debug\net8.0\Practice02_IF_Example.exe
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\bin\Debug\net8.0\Practice02_IF_Example.deps.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\bin\Debug\net8.0\Practice02_IF_Example.runtimeconfig.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\bin\Debug\net8.0\Practice02_IF_Example.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\bin\Debug\net8.0\Practice02_IF_Example.pdb
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.AssemblyInfoInputs.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.AssemblyInfo.cs
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.csproj.CoreCompileInputs.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.sourcelink.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\refint\Practice02_IF_Example.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.pdb
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\Practice02_IF_Example.genruntimeconfig.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice02_IF_Example\obj\Debug\net8.0\ref\Practice02_IF_Example.dll
