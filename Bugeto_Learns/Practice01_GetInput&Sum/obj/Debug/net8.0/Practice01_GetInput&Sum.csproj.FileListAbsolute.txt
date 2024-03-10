@@ -1,0 +1,15 @@
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\bin\Debug\net8.0\Practice01_GetInput&Sum.exe
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\bin\Debug\net8.0\Practice01_GetInput&Sum.deps.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\bin\Debug\net8.0\Practice01_GetInput&Sum.runtimeconfig.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\bin\Debug\net8.0\Practice01_GetInput&Sum.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\bin\Debug\net8.0\Practice01_GetInput&Sum.pdb
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.AssemblyInfoInputs.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.AssemblyInfo.cs
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.csproj.CoreCompileInputs.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.sourcelink.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\refint\Practice01_GetInput&Sum.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.pdb
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\Practice01_GetInput&Sum.genruntimeconfig.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice01_GetInput&Sum\obj\Debug\net8.0\ref\Practice01_GetInput&Sum.dll
