@@ -2,7 +2,14 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
+        {
+            //DayOfWeek_IF();
+
+            DayOfWeek_Switch();
+        }
+
+        public static void DayOfWeek_IF()
         {
             try
             {
@@ -49,6 +56,47 @@
                 Console.WriteLine("Please Enter Number as renje 1 to 7!");
 
                 Console.ReadKey();
+            }
+        }
+
+        public static void DayOfWeek_Switch()
+        {
+            try
+            {
+                Console.WriteLine("Please Enter a number: ");
+                byte dayOfWeek = byte.Parse(Console.ReadLine());
+
+                switch (dayOfWeek)
+                {
+                    case 1:
+                        Console.WriteLine("Saturday");
+                        break;
+                    case 2:
+                        Console.WriteLine("Sunday");
+                        break;
+                    case 3:
+                        Console.WriteLine("Monday");
+                        break;
+                    case 4:
+                        Console.WriteLine("Tuesday");
+                        break;
+                    case 5:
+                        Console.WriteLine("Wensday");
+                        break;
+                    case 6:
+                        Console.WriteLine("Thursday");
+                        break;
+                    case 7:
+                        Console.WriteLine("Friday");
+                        break;
+                    default:
+                        Console.WriteLine("Please enter number in range 1 to 7");
+                        break;
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Please enter number in range 1 to 7");
             }
         }
     }
