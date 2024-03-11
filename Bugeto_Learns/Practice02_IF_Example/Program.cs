@@ -1,6 +1,6 @@
 ﻿namespace Practice02_IF_Example
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
