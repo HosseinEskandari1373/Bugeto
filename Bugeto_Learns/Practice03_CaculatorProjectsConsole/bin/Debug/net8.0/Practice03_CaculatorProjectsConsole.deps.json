@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Practice03_CaculatorProjectsConsole/1.0.0": {
+        "runtime": {
+          "Practice03_CaculatorProjectsConsole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practice03_CaculatorProjectsConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

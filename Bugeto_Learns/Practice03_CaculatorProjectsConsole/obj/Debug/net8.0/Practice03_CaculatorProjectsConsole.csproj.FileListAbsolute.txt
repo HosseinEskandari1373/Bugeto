@@ -1,0 +1,15 @@
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\bin\Debug\net8.0\Practice03_CaculatorProjectsConsole.exe
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\bin\Debug\net8.0\Practice03_CaculatorProjectsConsole.deps.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\bin\Debug\net8.0\Practice03_CaculatorProjectsConsole.runtimeconfig.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\bin\Debug\net8.0\Practice03_CaculatorProjectsConsole.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\bin\Debug\net8.0\Practice03_CaculatorProjectsConsole.pdb
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.AssemblyInfoInputs.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.AssemblyInfo.cs
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.csproj.CoreCompileInputs.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.sourcelink.json
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\refint\Practice03_CaculatorProjectsConsole.dll
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.pdb
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\Practice03_CaculatorProjectsConsole.genruntimeconfig.cache
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice03_CaculatorProjectsConsole\obj\Debug\net8.0\ref\Practice03_CaculatorProjectsConsole.dll
