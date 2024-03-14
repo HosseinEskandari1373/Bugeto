@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73B4C70C-BA5C-4329-B30D-D3EC396CC9AC}|Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj|c:\\users\\payanet\\source\\repos\\github\\learns\\bugeto\\bugeto_learns\\practice03_caculatorprojectsconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73B4C70C-BA5C-4329-B30D-D3EC396CC9AC}|Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj|solutionrelative:practice03_caculatorprojectsconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B15DFA0-A54C-49E9-A301-940296DD2888}|Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj|c:\\users\\payanet\\source\\repos\\github\\learns\\bugeto\\bugeto_learns\\practice1_learnwinform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B15DFA0-A54C-49E9-A301-940296DD2888}|Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj|solutionrelative:practice1_learnwinform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{558DE8E7-E47A-4C0F-B2B0-88CDF160703C}|Practice02_IF_Example\\Practice02_IF_Example.csproj|c:\\users\\payanet\\source\\repos\\github\\learns\\bugeto\\bugeto_learns\\practice02_if_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{558DE8E7-E47A-4C0F-B2B0-88CDF160703C}|Practice02_IF_Example\\Practice02_IF_Example.csproj|solutionrelative:practice02_if_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B15DFA0-A54C-49E9-A301-940296DD2888}|Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj|c:\\users\\payanet\\source\\repos\\github\\learns\\bugeto\\bugeto_learns\\practice1_learnwinform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B15DFA0-A54C-49E9-A301-940296DD2888}|Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj|solutionrelative:practice1_learnwinform\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\mainForm.cs",
+              "RelativeDocumentMoniker": "Practice1_LearnWinForm\\mainForm.cs",
+              "ToolTip": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\mainForm.cs [Design]",
+              "RelativeToolTip": "Practice1_LearnWinForm\\mainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T19:49:24.722Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainForm.cs",
+              "DocumentMoniker": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\mainForm.cs",
+              "RelativeDocumentMoniker": "Practice1_LearnWinForm\\mainForm.cs",
+              "ToolTip": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\mainForm.cs",
+              "RelativeToolTip": "Practice1_LearnWinForm\\mainForm.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA5wAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T19:45:23.39Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -27,32 +54,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice03_CaculatorProjectsConsole\\Program.cs",
-              "RelativeDocumentMoniker": "Practice03_CaculatorProjectsConsole\\Program.cs",
-              "ToolTip": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice03_CaculatorProjectsConsole\\Program.cs*",
-              "RelativeToolTip": "Practice03_CaculatorProjectsConsole\\Program.cs*",
-              "ViewState": "AQIAABUAAAAAAAAAAAAIwCYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T20:17:55.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Program.cs",
-              "RelativeDocumentMoniker": "Practice02_IF_Example\\Program.cs",
-              "ToolTip": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Program.cs",
-              "RelativeToolTip": "Practice02_IF_Example\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T19:37:30.2Z",
-              "EditorCaption": ""
             }
           ]
         }

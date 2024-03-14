@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Practice1_LearnWinForm/1.0.0": {
+        "runtime": {
+          "Practice1_LearnWinForm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practice1_LearnWinForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
