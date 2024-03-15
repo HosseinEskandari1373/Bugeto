@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj": {}
+    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj": {
+    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj",
+        "projectUniqueName": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj",
         "projectName": "Practice01_GetInput&Sum",
-        "projectPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj",
+        "projectPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice01_GetInput&Sum\\Practice01_GetInput&Sum.csproj",
         "packagesPath": "C:\\Users\\payanet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice01_GetInput&Sum\\obj\\",
+        "outputPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice01_GetInput&Sum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj": {}
+    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# متوسطه\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj": {
+    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# متوسطه\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj",
+        "projectUniqueName": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# متوسطه\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj",
         "projectName": "Practice1_LearnWinForm",
-        "projectPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj",
+        "projectPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# متوسطه\\Practice1_LearnWinForm\\Practice1_LearnWinForm.csproj",
         "packagesPath": "C:\\Users\\payanet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice1_LearnWinForm\\obj\\",
+        "outputPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# متوسطه\\Practice1_LearnWinForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

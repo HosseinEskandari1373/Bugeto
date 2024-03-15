@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Practice02_IF_Example.csproj": {}
+    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice02_IF_Example\\Practice02_IF_Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Practice02_IF_Example.csproj": {
+    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice02_IF_Example\\Practice02_IF_Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Practice02_IF_Example.csproj",
+        "projectUniqueName": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice02_IF_Example\\Practice02_IF_Example.csproj",
         "projectName": "Practice02_IF_Example",
-        "projectPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\Practice02_IF_Example.csproj",
+        "projectPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice02_IF_Example\\Practice02_IF_Example.csproj",
         "packagesPath": "C:\\Users\\payanet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\Practice02_IF_Example\\obj\\",
+        "outputPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice02_IF_Example\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
