@@ -16,3 +16,4 @@ C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice1_Learn
 C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice1_LearnWinForm\obj\Debug\net8.0-windows\Practice1_LearnWinForm.genruntimeconfig.cache
 C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice1_LearnWinForm\obj\Debug\net8.0-windows\ref\Practice1_LearnWinForm.dll
 C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice1_LearnWinForm\obj\Debug\net8.0-windows\Practice1_LearnWinForm.ComboForm.resources
+C:\Users\payanet\source\repos\GitHub\Learns\Bugeto\Bugeto_Learns\Practice1_LearnWinForm\obj\Debug\net8.0-windows\Practice1_LearnWinForm.Properties.Resources.resources
