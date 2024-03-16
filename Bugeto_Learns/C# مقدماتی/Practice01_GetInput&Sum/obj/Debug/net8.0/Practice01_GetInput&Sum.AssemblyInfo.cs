@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practice01_GetInput&Sum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b05e3c6ff1f5f20ce2d110450bc975994870719c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26cca9d6834f1f15b2a022957f6595b4de42a261")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practice01_GetInput&Sum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practice01_GetInput&Sum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

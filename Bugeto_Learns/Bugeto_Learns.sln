@@ -14,13 +14,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Img", "Img", "{6ACD9F7E-118
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice1_LearnWinForm", "C# متوسطه\Practice1_LearnWinForm\Practice1_LearnWinForm.csproj", "{A599D37A-263E-4828-8BC5-088B1A2C2CE7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practoce1_LearnWinForm", "C# متوسطه\Practoce1_LearnWinForm\Practoce1_LearnWinForm.csproj", "{4642E3FA-FAFB-443C-9F8D-70407CDCA4F1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice01_GetInput&Sum", "C# مقدماتی\Practice01_GetInput&Sum\Practice01_GetInput&Sum.csproj", "{51C5A1AB-D7BE-4CB2-9CD5-09DB859CAFF4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice02_IF_Example", "C# مقدماتی\Practice02_IF_Example\Practice02_IF_Example.csproj", "{FB14E33F-FB88-4B18-8B6F-5CE189EBD1CB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice03_CaculatorProjectsConsole", "C# مقدماتی\Practice03_CaculatorProjectsConsole\Practice03_CaculatorProjectsConsole.csproj", "{0F1EB0A9-C01B-44E6-8A5E-DE619E362348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotePadeFarsi", "C# متوسطه\NotePadeFarsi\NotePadeFarsi.csproj", "{5540A08E-4153-432C-9DD4-6A1D0709E88A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,10 +32,6 @@ Global
 		{A599D37A-263E-4828-8BC5-088B1A2C2CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A599D37A-263E-4828-8BC5-088B1A2C2CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A599D37A-263E-4828-8BC5-088B1A2C2CE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4642E3FA-FAFB-443C-9F8D-70407CDCA4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4642E3FA-FAFB-443C-9F8D-70407CDCA4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4642E3FA-FAFB-443C-9F8D-70407CDCA4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4642E3FA-FAFB-443C-9F8D-70407CDCA4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51C5A1AB-D7BE-4CB2-9CD5-09DB859CAFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51C5A1AB-D7BE-4CB2-9CD5-09DB859CAFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C5A1AB-D7BE-4CB2-9CD5-09DB859CAFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +44,10 @@ Global
 		{0F1EB0A9-C01B-44E6-8A5E-DE619E362348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1EB0A9-C01B-44E6-8A5E-DE619E362348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1EB0A9-C01B-44E6-8A5E-DE619E362348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5540A08E-4153-432C-9DD4-6A1D0709E88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5540A08E-4153-432C-9DD4-6A1D0709E88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5540A08E-4153-432C-9DD4-6A1D0709E88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5540A08E-4153-432C-9DD4-6A1D0709E88A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,10 +55,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6ACD9F7E-1183-4F15-8A9A-A049755CD54F} = {13214E26-3E4D-473B-8191-4F8F9473E022}
 		{A599D37A-263E-4828-8BC5-088B1A2C2CE7} = {13214E26-3E4D-473B-8191-4F8F9473E022}
-		{4642E3FA-FAFB-443C-9F8D-70407CDCA4F1} = {13214E26-3E4D-473B-8191-4F8F9473E022}
 		{51C5A1AB-D7BE-4CB2-9CD5-09DB859CAFF4} = {4980C5B3-675F-4EBD-84BA-531E71DBF981}
 		{FB14E33F-FB88-4B18-8B6F-5CE189EBD1CB} = {4980C5B3-675F-4EBD-84BA-531E71DBF981}
 		{0F1EB0A9-C01B-44E6-8A5E-DE619E362348} = {4980C5B3-675F-4EBD-84BA-531E71DBF981}
+		{5540A08E-4153-432C-9DD4-6A1D0709E88A} = {13214E26-3E4D-473B-8191-4F8F9473E022}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89C5BA91-E77B-4EAA-8427-5089E53F5110}
