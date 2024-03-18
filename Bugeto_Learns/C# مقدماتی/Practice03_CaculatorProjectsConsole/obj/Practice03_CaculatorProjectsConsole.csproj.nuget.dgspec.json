@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj": {}
+    "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj": {
+    "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj",
+        "projectUniqueName": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj",
         "projectName": "Practice03_CaculatorProjectsConsole",
-        "projectPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj",
-        "packagesPath": "C:\\Users\\payanet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\obj\\",
+        "projectPath": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\Practice03_CaculatorProjectsConsole.csproj",
+        "packagesPath": "C:\\Users\\14025492\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# مقدماتی\\Practice03_CaculatorProjectsConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\payanet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\14025492\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://devops.entekhabgroup.com/tfs/EntekhabGroup/15e76991-5bd8-4916-a9aa-5bf98360d2c7/_packaging/EntekhabCRM/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
