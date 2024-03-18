@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Diagnostics;
+using System.IO;
 using System.Windows.Forms;
 
 namespace NotePadeFarsi
@@ -65,6 +66,12 @@ namespace NotePadeFarsi
 
                 richText.Text = text;
             }
+        }
+
+        private void mnuOpenNewProject_Click(object sender, System.EventArgs e)
+        {
+            string processName = Process.GetCurrentProcess().ProcessName;
+            Process.Start(processName);
         }
     }
 }

@@ -55,7 +55,7 @@
             this.فایلToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemNewFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOpenFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.بازکردنپنجرهجدیدToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuOpenNewProject = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.ذخیرهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ذخیرهدرToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -308,7 +308,7 @@
             this.فایلToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuItemNewFile,
             this.mnuOpenFile,
-            this.بازکردنپنجرهجدیدToolStripMenuItem,
+            this.mnuOpenNewProject,
             this.toolStripSeparator1,
             this.ذخیرهToolStripMenuItem,
             this.ذخیرهدرToolStripMenuItem,
@@ -338,14 +338,15 @@
             this.mnuOpenFile.Text = "باز کردن سند";
             this.mnuOpenFile.Click += new System.EventHandler(this.mnuOpenFile_Click);
             // 
-            // بازکردنپنجرهجدیدToolStripMenuItem
+            // mnuOpenNewProject
             // 
-            this.بازکردنپنجرهجدیدToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_new_window_50;
-            this.بازکردنپنجرهجدیدToolStripMenuItem.Name = "بازکردنپنجرهجدیدToolStripMenuItem";
-            this.بازکردنپنجرهجدیدToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            this.mnuOpenNewProject.Image = global::NotePadeFarsi.Properties.Resources.icons8_new_window_50;
+            this.mnuOpenNewProject.Name = "mnuOpenNewProject";
+            this.mnuOpenNewProject.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.N)));
-            this.بازکردنپنجرهجدیدToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.بازکردنپنجرهجدیدToolStripMenuItem.Text = "باز کردن پنجره جدید";
+            this.mnuOpenNewProject.Size = new System.Drawing.Size(242, 22);
+            this.mnuOpenNewProject.Text = "باز کردن پنجره جدید";
+            this.mnuOpenNewProject.Click += new System.EventHandler(this.mnuOpenNewProject_Click);
             // 
             // toolStripSeparator1
             // 
@@ -616,7 +617,7 @@
         private System.Windows.Forms.ToolStripMenuItem فایلToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem MenuItemNewFile;
         private System.Windows.Forms.ToolStripMenuItem mnuOpenFile;
-        private System.Windows.Forms.ToolStripMenuItem بازکردنپنجرهجدیدToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuOpenNewProject;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem ذخیرهToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ذخیرهدرToolStripMenuItem;
