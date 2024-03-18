@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practice03_CaculatorProjectsConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c2e81aec238208fdd228e8660c96e80f0a27a8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702cee77374b50a8b5fe2df941af3eb7d30cbd63")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practice03_CaculatorProjectsConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practice03_CaculatorProjectsConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
