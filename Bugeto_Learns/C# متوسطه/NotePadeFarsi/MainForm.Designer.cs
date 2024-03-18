@@ -54,7 +54,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.فایلToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuItemNewFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.بازکردنسندToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuOpenFile = new System.Windows.Forms.ToolStripMenuItem();
             this.بازکردنپنجرهجدیدToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.ذخیرهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -84,6 +84,7 @@
             this.گزارشخطاToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.دربارهماToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveDialog = new System.Windows.Forms.SaveFileDialog();
+            this.openDialog = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -306,7 +307,7 @@
             // 
             this.فایلToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuItemNewFile,
-            this.بازکردنسندToolStripMenuItem,
+            this.mnuOpenFile,
             this.بازکردنپنجرهجدیدToolStripMenuItem,
             this.toolStripSeparator1,
             this.ذخیرهToolStripMenuItem,
@@ -328,13 +329,14 @@
             this.MenuItemNewFile.Text = "سند جدید";
             this.MenuItemNewFile.Click += new System.EventHandler(this.MenuItemNewFile_Click);
             // 
-            // بازکردنسندToolStripMenuItem
+            // mnuOpenFile
             // 
-            this.بازکردنسندToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_open_file_64;
-            this.بازکردنسندToolStripMenuItem.Name = "بازکردنسندToolStripMenuItem";
-            this.بازکردنسندToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.بازکردنسندToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.بازکردنسندToolStripMenuItem.Text = "باز کردن سند";
+            this.mnuOpenFile.Image = global::NotePadeFarsi.Properties.Resources.icons8_open_file_64;
+            this.mnuOpenFile.Name = "mnuOpenFile";
+            this.mnuOpenFile.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.mnuOpenFile.Size = new System.Drawing.Size(242, 22);
+            this.mnuOpenFile.Text = "باز کردن سند";
+            this.mnuOpenFile.Click += new System.EventHandler(this.mnuOpenFile_Click);
             // 
             // بازکردنپنجرهجدیدToolStripMenuItem
             // 
@@ -561,6 +563,13 @@
             // saveDialog
             // 
             this.saveDialog.Filter = "txt files(*.txt)|*.txt|All files(*.*)|*.*";
+            this.saveDialog.Title = "ذخیره کردن سند";
+            // 
+            // openDialog
+            // 
+            this.openDialog.FileName = "openDialog";
+            this.openDialog.Filter = "txt files(*.txt)|*.txt|All files(*.*)|*.*";
+            this.openDialog.Title = "باز کردن سند";
             // 
             // MainForm
             // 
@@ -606,7 +615,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem فایلToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem MenuItemNewFile;
-        private System.Windows.Forms.ToolStripMenuItem بازکردنسندToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuOpenFile;
         private System.Windows.Forms.ToolStripMenuItem بازکردنپنجرهجدیدToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem ذخیرهToolStripMenuItem;
@@ -648,6 +657,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripButton toolStripPrint;
         private System.Windows.Forms.SaveFileDialog saveDialog;
+        private System.Windows.Forms.OpenFileDialog openDialog;
     }
 }
 

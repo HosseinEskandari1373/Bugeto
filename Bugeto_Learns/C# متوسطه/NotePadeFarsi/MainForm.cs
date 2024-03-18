@@ -29,8 +29,10 @@ namespace NotePadeFarsi
                     DialogResult saveDialogs = saveDialog.ShowDialog();
                     if (saveDialogs == DialogResult.OK)
                     {
-                        StreamWriter swNewFile = new StreamWriter(saveDialog.FileName);
-                        swNewFile.Write(richText.Text);
+                        using (StreamWriter swNewFile = new StreamWriter(saveDialog.FileName))
+                        {
+                            swNewFile.Write(richText.Text);
+                        }
                     }
                     else
                     {
@@ -49,6 +51,20 @@ namespace NotePadeFarsi
         private void TxtChange(object sender, System.EventArgs e)
         {
             manageRichText = true;
+        }
+
+        private void mnuOpenFile_Click(object sender, System.EventArgs e)
+        {
+            if (openDialog.ShowDialog() == DialogResult.OK)
+            {
+                string text = "";
+                using (StreamReader srOpenFile = new StreamReader(openDialog.FileName))
+                {
+                    text = srOpenFile.ReadToEnd();
+                }
+
+                richText.Text = text;
+            }
         }
     }
 }
