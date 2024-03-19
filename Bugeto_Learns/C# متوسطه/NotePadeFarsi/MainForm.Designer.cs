@@ -57,8 +57,8 @@
             this.mnuOpenFile = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuOpenNewProject = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.ذخیرهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ذخیرهدرToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.چاپToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
@@ -310,8 +310,8 @@
             this.mnuOpenFile,
             this.mnuOpenNewProject,
             this.toolStripSeparator1,
-            this.ذخیرهToolStripMenuItem,
-            this.ذخیرهدرToolStripMenuItem,
+            this.mnuSave,
+            this.mnuSaveAs,
             this.toolStripSeparator2,
             this.چاپToolStripMenuItem,
             this.toolStripSeparator3,
@@ -353,22 +353,24 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(239, 6);
             // 
-            // ذخیرهToolStripMenuItem
+            // mnuSave
             // 
-            this.ذخیرهToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_save_64;
-            this.ذخیرهToolStripMenuItem.Name = "ذخیرهToolStripMenuItem";
-            this.ذخیرهToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.ذخیرهToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.ذخیرهToolStripMenuItem.Text = "ذخیره";
+            this.mnuSave.Image = global::NotePadeFarsi.Properties.Resources.icons8_save_64;
+            this.mnuSave.Name = "mnuSave";
+            this.mnuSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.mnuSave.Size = new System.Drawing.Size(242, 22);
+            this.mnuSave.Text = "ذخیره";
+            this.mnuSave.Click += new System.EventHandler(this.mnuSave_Click);
             // 
-            // ذخیرهدرToolStripMenuItem
+            // mnuSaveAs
             // 
-            this.ذخیرهدرToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_save_as_100;
-            this.ذخیرهدرToolStripMenuItem.Name = "ذخیرهدرToolStripMenuItem";
-            this.ذخیرهدرToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            this.mnuSaveAs.Image = global::NotePadeFarsi.Properties.Resources.icons8_save_as_100;
+            this.mnuSaveAs.Name = "mnuSaveAs";
+            this.mnuSaveAs.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
-            this.ذخیرهدرToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.ذخیرهدرToolStripMenuItem.Text = "ذخیره در";
+            this.mnuSaveAs.Size = new System.Drawing.Size(242, 22);
+            this.mnuSaveAs.Text = "ذخیره در";
+            this.mnuSaveAs.Click += new System.EventHandler(this.mnuSaveAs_Click);
             // 
             // toolStripSeparator2
             // 
@@ -619,8 +621,8 @@
         private System.Windows.Forms.ToolStripMenuItem mnuOpenFile;
         private System.Windows.Forms.ToolStripMenuItem mnuOpenNewProject;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem ذخیرهToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ذخیرهدرToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuSave;
+        private System.Windows.Forms.ToolStripMenuItem mnuSaveAs;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem چاپToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;

@@ -7,6 +7,7 @@ namespace NotePadeFarsi
     public partial class MainForm : Form
     {
         bool manageRichText = false;
+        string pathSave = "";
         public MainForm()
         {
             InitializeComponent();
@@ -72,6 +73,40 @@ namespace NotePadeFarsi
         {
             string processName = Process.GetCurrentProcess().ProcessName;
             Process.Start(processName);
+        }
+
+        private void mnuSave_Click(object sender, System.EventArgs e)
+        {
+            if (string.IsNullOrEmpty(pathSave))
+            {
+                if (saveDialog.ShowDialog() == DialogResult.OK)
+                {
+                    using (StreamWriter sw = new StreamWriter(saveDialog.FileName))
+                    {
+                        sw.Write(richText.Text);
+                        pathSave = saveDialog.FileName;
+                    }
+                }
+            }
+            else
+            {
+                using (StreamWriter sw = new StreamWriter(pathSave))
+                {
+                    sw.Write(richText.Text);
+                }
+            }
+        }
+
+        private void mnuSaveAs_Click(object sender, System.EventArgs e)
+        {
+            if (saveDialog.ShowDialog() == DialogResult.OK)
+            {
+                using (StreamWriter sw = new StreamWriter(saveDialog.FileName))
+                {
+                    sw.Write(richText.Text);
+                    pathSave = saveDialog.FileName;
+                }
+            }
         }
     }
 }
