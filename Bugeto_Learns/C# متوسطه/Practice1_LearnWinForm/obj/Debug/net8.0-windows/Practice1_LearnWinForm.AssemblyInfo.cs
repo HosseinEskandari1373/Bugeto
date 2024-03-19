@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Practice1_LearnWinForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702cee77374b50a8b5fe2df941af3eb7d30cbd63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00b039011650f5b73c1888a58a5f91b1ddf7be8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Practice1_LearnWinForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Practice1_LearnWinForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
