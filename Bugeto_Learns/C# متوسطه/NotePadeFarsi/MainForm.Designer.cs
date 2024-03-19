@@ -75,7 +75,7 @@
             this.انتخابهمهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.درجتاریخToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.قالببندیToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.فونتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuFont = new System.Windows.Forms.ToolStripMenuItem();
             this.نماToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.نواروضعیتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.جعبهابزارToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -85,6 +85,7 @@
             this.دربارهماToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveDialog = new System.Windows.Forms.SaveFileDialog();
             this.openDialog = new System.Windows.Forms.OpenFileDialog();
+            this.fontDialog = new System.Windows.Forms.FontDialog();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -494,19 +495,20 @@
             // قالببندیToolStripMenuItem
             // 
             this.قالببندیToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.فونتToolStripMenuItem});
+            this.mnuFont});
             this.قالببندیToolStripMenuItem.Name = "قالببندیToolStripMenuItem";
             this.قالببندیToolStripMenuItem.Size = new System.Drawing.Size(69, 26);
             this.قالببندیToolStripMenuItem.Text = "قالب بندی";
             // 
-            // فونتToolStripMenuItem
+            // mnuFont
             // 
-            this.فونتToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_font_16;
-            this.فونتToolStripMenuItem.Name = "فونتToolStripMenuItem";
-            this.فونتToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            this.mnuFont.Image = global::NotePadeFarsi.Properties.Resources.icons8_font_16;
+            this.mnuFont.Name = "mnuFont";
+            this.mnuFont.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.F)));
-            this.فونتToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.فونتToolStripMenuItem.Text = "فونت";
+            this.mnuFont.Size = new System.Drawing.Size(180, 22);
+            this.mnuFont.Text = "فونت";
+            this.mnuFont.Click += new System.EventHandler(this.mnuFont_Click);
             // 
             // نماToolStripMenuItem
             // 
@@ -574,6 +576,10 @@
             this.openDialog.Filter = "txt files(*.txt)|*.txt|All files(*.*)|*.*";
             this.openDialog.Title = "باز کردن سند";
             // 
+            // fontDialog
+            // 
+            this.fontDialog.Font = new System.Drawing.Font("B Nazanin", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -639,7 +645,7 @@
         private System.Windows.Forms.ToolStripMenuItem انتخابهمهToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem درجتاریخToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem قالببندیToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem فونتToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuFont;
         private System.Windows.Forms.ToolStripMenuItem نماToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem نواروضعیتToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem جعبهابزارToolStripMenuItem;
@@ -661,6 +667,7 @@
         private System.Windows.Forms.ToolStripButton toolStripPrint;
         private System.Windows.Forms.SaveFileDialog saveDialog;
         private System.Windows.Forms.OpenFileDialog openDialog;
+        private System.Windows.Forms.FontDialog fontDialog;
     }
 }
 

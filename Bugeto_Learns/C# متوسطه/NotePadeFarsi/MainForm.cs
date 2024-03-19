@@ -11,6 +11,8 @@ namespace NotePadeFarsi
         public MainForm()
         {
             InitializeComponent();
+
+            richText.Font = fontDialog.Font;
         }
 
         private void MenuItemNewFile_Click(object sender, System.EventArgs e)
@@ -107,6 +109,12 @@ namespace NotePadeFarsi
                     pathSave = saveDialog.FileName;
                 }
             }
+        }
+
+        private void mnuFont_Click(object sender, System.EventArgs e)
+        {
+            fontDialog.ShowDialog();
+            richText.Font = fontDialog.Font;
         }
     }
 }
