@@ -142,5 +142,25 @@ namespace NotePadeFarsi
                 }
             }
         }
+
+        private void mnuStatus_Click(object sender, System.EventArgs e)
+        {
+            if (statusBar.Visible == true)
+            {
+                statusBar.Visible = false;
+                mnuStatus.Checked = false;
+            }
+            else
+            {
+                statusBar.Visible = true;
+                mnuStatus.Checked = false;
+            }
+        }
+
+        private void mnuTools_Click(object sender, System.EventArgs e)
+        {
+            toolBar.Visible = !toolBar.Visible;
+            mnuTools.Checked = !mnuTools.Checked;
+        }
     }
 }
