@@ -116,5 +116,31 @@ namespace NotePadeFarsi
             fontDialog.ShowDialog();
             richText.Font = fontDialog.Font;
         }
+
+        private void mnuExit_Click(object sender, System.EventArgs e)
+        {
+            //this.Close();
+            Application.Exit();
+        }
+
+        private void frmClosing(object sender, FormClosingEventArgs e)
+        {
+            if (manageRichText == true)
+            {
+                DialogResult dialogRes = MessageBox.Show("سند را هنوز ذخیره نکرده اید. آیا مایل به ذخیره آن هستید؟",
+                                                         "ذخیره سند",
+                                                         MessageBoxButtons.YesNoCancel,
+                                                         MessageBoxIcon.Question,
+                                                         MessageBoxDefaultButton.Button1);
+
+                if (dialogRes == DialogResult.Yes)
+                {
+                    using (StreamWriter sw = new StreamWriter(saveDialog.FileName))
+                    {
+                        sw.Write(richText.Text);
+                    }
+                }
+            }
+        }
     }
 }

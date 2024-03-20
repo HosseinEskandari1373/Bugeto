@@ -62,7 +62,7 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.چاپToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.خروجازبرنامهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.ویرایشToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.واگردToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.رونوشتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -316,7 +316,7 @@
             this.toolStripSeparator2,
             this.چاپToolStripMenuItem,
             this.toolStripSeparator3,
-            this.خروجازبرنامهToolStripMenuItem});
+            this.mnuExit});
             this.فایلToolStripMenuItem.Name = "فایلToolStripMenuItem";
             this.فایلToolStripMenuItem.Size = new System.Drawing.Size(40, 26);
             this.فایلToolStripMenuItem.Text = "فایل";
@@ -391,13 +391,14 @@
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(239, 6);
             // 
-            // خروجازبرنامهToolStripMenuItem
+            // mnuExit
             // 
-            this.خروجازبرنامهToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_logout_16;
-            this.خروجازبرنامهToolStripMenuItem.Name = "خروجازبرنامهToolStripMenuItem";
-            this.خروجازبرنامهToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
-            this.خروجازبرنامهToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.خروجازبرنامهToolStripMenuItem.Text = "خروج از برنامه";
+            this.mnuExit.Image = global::NotePadeFarsi.Properties.Resources.icons8_logout_16;
+            this.mnuExit.Name = "mnuExit";
+            this.mnuExit.ShortcutKeys = System.Windows.Forms.Keys.F4;
+            this.mnuExit.Size = new System.Drawing.Size(242, 22);
+            this.mnuExit.Text = "خروج از برنامه";
+            this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
             // 
             // ویرایشToolStripMenuItem
             // 
@@ -594,6 +595,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "دفترچه یادداشت (فارسی)";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmClosing);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -632,7 +634,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem چاپToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripMenuItem خروجازبرنامهToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuExit;
         private System.Windows.Forms.ToolStripMenuItem ویرایشToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem واگردToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem رونوشتToolStripMenuItem;

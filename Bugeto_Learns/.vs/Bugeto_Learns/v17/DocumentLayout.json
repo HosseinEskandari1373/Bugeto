@@ -18,12 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,11 +41,15 @@
               "RelativeDocumentMoniker": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\MainForm.cs",
               "ToolTip": "C:\\Users\\payanet\\source\\repos\\GitHub\\Learns\\Bugeto\\Bugeto_Learns\\C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\MainForm.cs",
               "RelativeToolTip": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHQAAAAsAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAIA1wH4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-18T05:57:22.844Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
