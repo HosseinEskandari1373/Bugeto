@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 
@@ -207,6 +208,16 @@ namespace NotePadeFarsi
                 Clipboard.SetText(richText.Text);
                 richText.Text = richText.Text.Replace(richText.Text, "");
             }
+        }
+
+        private void mnuSelectAll_Click(object sender, System.EventArgs e)
+        {
+            richText.SelectAll();
+        }
+
+        private void mnuInsertDate_Click(object sender, System.EventArgs e)
+        {
+            richText.Text += $"{DateTime.Now.ToShortDateString()}  {DateTime.Now.ToShortTimeString()}";
         }
     }
 }

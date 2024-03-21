@@ -73,8 +73,8 @@
             this.جستجوToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.جایگزینیToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.انتخابهمهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.درجتاریخToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSelectAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuInsertDate = new System.Windows.Forms.ToolStripMenuItem();
             this.قالببندیToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFont = new System.Windows.Forms.ToolStripMenuItem();
             this.نماToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -413,8 +413,8 @@
             this.جستجوToolStripMenuItem,
             this.جایگزینیToolStripMenuItem,
             this.toolStripSeparator5,
-            this.انتخابهمهToolStripMenuItem,
-            this.درجتاریخToolStripMenuItem});
+            this.mnuSelectAll,
+            this.mnuInsertDate});
             this.ویرایشToolStripMenuItem.Name = "ویرایشToolStripMenuItem";
             this.ویرایشToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
             this.ویرایشToolStripMenuItem.Size = new System.Drawing.Size(55, 26);
@@ -490,22 +490,24 @@
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(189, 6);
             // 
-            // انتخابهمهToolStripMenuItem
+            // mnuSelectAll
             // 
-            this.انتخابهمهToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_select_all_64;
-            this.انتخابهمهToolStripMenuItem.Name = "انتخابهمهToolStripMenuItem";
-            this.انتخابهمهToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.انتخابهمهToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.انتخابهمهToolStripMenuItem.Text = "انتخاب همه";
+            this.mnuSelectAll.Image = global::NotePadeFarsi.Properties.Resources.icons8_select_all_64;
+            this.mnuSelectAll.Name = "mnuSelectAll";
+            this.mnuSelectAll.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.mnuSelectAll.Size = new System.Drawing.Size(192, 22);
+            this.mnuSelectAll.Text = "انتخاب همه";
+            this.mnuSelectAll.Click += new System.EventHandler(this.mnuSelectAll_Click);
             // 
-            // درجتاریخToolStripMenuItem
+            // mnuInsertDate
             // 
-            this.درجتاریخToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_date_to_64;
-            this.درجتاریخToolStripMenuItem.Name = "درجتاریخToolStripMenuItem";
-            this.درجتاریخToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            this.mnuInsertDate.Image = global::NotePadeFarsi.Properties.Resources.icons8_date_to_64;
+            this.mnuInsertDate.Name = "mnuInsertDate";
+            this.mnuInsertDate.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.T)));
-            this.درجتاریخToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.درجتاریخToolStripMenuItem.Text = "درج تاریخ";
+            this.mnuInsertDate.Size = new System.Drawing.Size(192, 22);
+            this.mnuInsertDate.Text = "درج تاریخ";
+            this.mnuInsertDate.Click += new System.EventHandler(this.mnuInsertDate_Click);
             // 
             // قالببندیToolStripMenuItem
             // 
@@ -660,8 +662,8 @@
         private System.Windows.Forms.ToolStripMenuItem جستجوToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem جایگزینیToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripMenuItem انتخابهمهToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem درجتاریخToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuSelectAll;
+        private System.Windows.Forms.ToolStripMenuItem mnuInsertDate;
         private System.Windows.Forms.ToolStripMenuItem قالببندیToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnuFont;
         private System.Windows.Forms.ToolStripMenuItem نماToolStripMenuItem;
