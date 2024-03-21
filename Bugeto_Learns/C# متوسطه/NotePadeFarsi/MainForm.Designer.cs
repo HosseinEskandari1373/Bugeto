@@ -65,9 +65,10 @@
             this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.ویرایشToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.واگردToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.رونوشتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.چسباندنToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.برشToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCopy = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPast = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCut = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.جستجوToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.جایگزینیToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -404,9 +405,10 @@
             // 
             this.ویرایشToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.واگردToolStripMenuItem,
-            this.رونوشتToolStripMenuItem,
-            this.چسباندنToolStripMenuItem,
-            this.برشToolStripMenuItem,
+            this.mnuCopy,
+            this.mnuPast,
+            this.mnuCut,
+            this.mnuDelete,
             this.toolStripSeparator4,
             this.جستجوToolStripMenuItem,
             this.جایگزینیToolStripMenuItem,
@@ -426,29 +428,41 @@
             this.واگردToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.واگردToolStripMenuItem.Text = "واگرد";
             // 
-            // رونوشتToolStripMenuItem
+            // mnuCopy
             // 
-            this.رونوشتToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_copy_file_64;
-            this.رونوشتToolStripMenuItem.Name = "رونوشتToolStripMenuItem";
-            this.رونوشتToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.رونوشتToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.رونوشتToolStripMenuItem.Text = "رونوشت";
+            this.mnuCopy.Image = global::NotePadeFarsi.Properties.Resources.icons8_copy_file_64;
+            this.mnuCopy.Name = "mnuCopy";
+            this.mnuCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.mnuCopy.Size = new System.Drawing.Size(192, 22);
+            this.mnuCopy.Text = "رونوشت";
+            this.mnuCopy.Click += new System.EventHandler(this.mnuCopy_Click);
             // 
-            // چسباندنToolStripMenuItem
+            // mnuPast
             // 
-            this.چسباندنToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_paste_64;
-            this.چسباندنToolStripMenuItem.Name = "چسباندنToolStripMenuItem";
-            this.چسباندنToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.چسباندنToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.چسباندنToolStripMenuItem.Text = "چسباندن";
+            this.mnuPast.Image = global::NotePadeFarsi.Properties.Resources.icons8_paste_64;
+            this.mnuPast.Name = "mnuPast";
+            this.mnuPast.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.mnuPast.Size = new System.Drawing.Size(192, 22);
+            this.mnuPast.Text = "چسباندن";
+            this.mnuPast.Click += new System.EventHandler(this.mnuPast_Click);
             // 
-            // برشToolStripMenuItem
+            // mnuCut
             // 
-            this.برشToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_cut_64;
-            this.برشToolStripMenuItem.Name = "برشToolStripMenuItem";
-            this.برشToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.برشToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.برشToolStripMenuItem.Text = "برش";
+            this.mnuCut.Image = global::NotePadeFarsi.Properties.Resources.icons8_cut_64;
+            this.mnuCut.Name = "mnuCut";
+            this.mnuCut.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.mnuCut.Size = new System.Drawing.Size(192, 22);
+            this.mnuCut.Text = "برش";
+            this.mnuCut.Click += new System.EventHandler(this.mnuCut_Click);
+            // 
+            // mnuDelete
+            // 
+            this.mnuDelete.Image = global::NotePadeFarsi.Properties.Resources.icons8_delete_100;
+            this.mnuDelete.Name = "mnuDelete";
+            this.mnuDelete.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.mnuDelete.Size = new System.Drawing.Size(192, 22);
+            this.mnuDelete.Text = "حذف";
+            this.mnuDelete.Click += new System.EventHandler(this.mnuDelete_Click);
             // 
             // toolStripSeparator4
             // 
@@ -507,7 +521,7 @@
             this.mnuFont.Name = "mnuFont";
             this.mnuFont.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.F)));
-            this.mnuFont.Size = new System.Drawing.Size(180, 22);
+            this.mnuFont.Size = new System.Drawing.Size(173, 22);
             this.mnuFont.Text = "فونت";
             this.mnuFont.Click += new System.EventHandler(this.mnuFont_Click);
             // 
@@ -525,7 +539,7 @@
             this.mnuStatus.Checked = true;
             this.mnuStatus.CheckState = System.Windows.Forms.CheckState.Checked;
             this.mnuStatus.Name = "mnuStatus";
-            this.mnuStatus.Size = new System.Drawing.Size(180, 22);
+            this.mnuStatus.Size = new System.Drawing.Size(135, 22);
             this.mnuStatus.Text = "نوار وضعیت";
             this.mnuStatus.Click += new System.EventHandler(this.mnuStatus_Click);
             // 
@@ -534,7 +548,7 @@
             this.mnuTools.Checked = true;
             this.mnuTools.CheckState = System.Windows.Forms.CheckState.Checked;
             this.mnuTools.Name = "mnuTools";
-            this.mnuTools.Size = new System.Drawing.Size(180, 22);
+            this.mnuTools.Size = new System.Drawing.Size(135, 22);
             this.mnuTools.Text = "جعبه ابزار";
             this.mnuTools.Click += new System.EventHandler(this.mnuTools_Click);
             // 
@@ -639,9 +653,9 @@
         private System.Windows.Forms.ToolStripMenuItem mnuExit;
         private System.Windows.Forms.ToolStripMenuItem ویرایشToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem واگردToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem رونوشتToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem چسباندنToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem برشToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuCopy;
+        private System.Windows.Forms.ToolStripMenuItem mnuPast;
+        private System.Windows.Forms.ToolStripMenuItem mnuCut;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem جستجوToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem جایگزینیToolStripMenuItem;
@@ -672,6 +686,7 @@
         private System.Windows.Forms.SaveFileDialog saveDialog;
         private System.Windows.Forms.OpenFileDialog openDialog;
         private System.Windows.Forms.FontDialog fontDialog;
+        private System.Windows.Forms.ToolStripMenuItem mnuDelete;
     }
 }
 

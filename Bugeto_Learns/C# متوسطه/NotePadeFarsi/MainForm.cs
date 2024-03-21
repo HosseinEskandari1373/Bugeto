@@ -162,5 +162,51 @@ namespace NotePadeFarsi
             toolBar.Visible = !toolBar.Visible;
             mnuTools.Checked = !mnuTools.Checked;
         }
+
+        private void mnuCopy_Click(object sender, System.EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(richText.SelectedText))
+            {
+                Clipboard.SetText(richText.SelectedText);
+            }
+            else
+            {
+                Clipboard.SetText(richText.Text);
+            }
+        }
+
+        private void mnuPast_Click(object sender, System.EventArgs e)
+        {
+            if (Clipboard.ContainsText())
+            {
+                richText.Text += Clipboard.GetText(TextDataFormat.UnicodeText).ToString();
+            }
+        }
+
+        private void mnuDelete_Click(object sender, System.EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(richText.SelectedText))
+            {
+                richText.SelectedText = richText.SelectedText.Replace(richText.SelectedText, "");
+            }
+            else
+            {
+                richText.Text = richText.Text.Replace(richText.Text, "");
+            }
+        }
+
+        private void mnuCut_Click(object sender, System.EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(richText.SelectedText))
+            {
+                Clipboard.SetText(richText.SelectedText);
+                richText.SelectedText = richText.SelectedText.Replace(richText.SelectedText, "");
+            }
+            else
+            {
+                Clipboard.SetText(richText.Text);
+                richText.Text = richText.Text.Replace(richText.Text, "");
+            }
+        }
     }
 }

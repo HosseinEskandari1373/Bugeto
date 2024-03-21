@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon-notepad.ico" />
+    <None Include="Img\Menu Icon\icons8-delete-100.png" />
     <None Include="Img\Menu Icon\icons8-call-64.png" />
     <None Include="Img\Menu Icon\icons8-help-64.png" />
     <None Include="Img\Menu Icon\icons8-font-16.png" />
