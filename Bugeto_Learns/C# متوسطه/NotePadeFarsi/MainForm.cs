@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using System.Drawing.Printing;
 
 namespace NotePadeFarsi
 {
@@ -218,6 +220,40 @@ namespace NotePadeFarsi
         private void mnuInsertDate_Click(object sender, System.EventArgs e)
         {
             richText.Text += $"{DateTime.Now.ToShortDateString()}  {DateTime.Now.ToShortTimeString()}";
+        }
+
+        private void mnuPrint_Click(object sender, EventArgs e)
+        {
+            printDialog.Document = printDocument;
+            if (printDialog.ShowDialog() == DialogResult.OK)
+            {
+                printDocument.Print();
+            }
+        }
+
+        private void printDocument_PrintPage(object sender, PrintPageEventArgs e)
+        {
+            string str = richText.Text;
+            int chars;
+            int lines;
+
+            SolidBrush brush = new SolidBrush(Color.Black);
+            StringFormat strFormat = new StringFormat();
+            strFormat.Trimming = StringTrimming.Word;
+            RectangleF myRect = new RectangleF(e.MarginBounds.Left, e.MarginBounds.Top, e.MarginBounds.Width, e.MarginBounds.Height);
+            SizeF sz = new SizeF(e.MarginBounds.Width, e.MarginBounds.Height - fontDialog.Font.GetHeight(e.Graphics));
+            e.Graphics.MeasureString(str, fontDialog.Font, sz, strFormat, out chars, out lines);
+            string printStr = str.Substring(0, chars);
+            e.Graphics.DrawString(printStr, fontDialog.Font, brush, myRect, strFormat);
+            if (str.Length > chars)
+            {
+                str = str.Substring(chars);
+                e.HasMorePages = true;
+            }
+            else
+            {
+                e.HasMorePages = false;
+            }
         }
     }
 }

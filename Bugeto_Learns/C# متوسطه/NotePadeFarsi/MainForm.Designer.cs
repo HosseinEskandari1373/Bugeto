@@ -60,7 +60,7 @@
             this.mnuSave = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuSaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.چاپToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPrint = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.mnuExit = new System.Windows.Forms.ToolStripMenuItem();
             this.ویرایشToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -87,6 +87,8 @@
             this.saveDialog = new System.Windows.Forms.SaveFileDialog();
             this.openDialog = new System.Windows.Forms.OpenFileDialog();
             this.fontDialog = new System.Windows.Forms.FontDialog();
+            this.printDialog = new System.Windows.Forms.PrintDialog();
+            this.printDocument = new System.Drawing.Printing.PrintDocument();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.statusBar.SuspendLayout();
@@ -315,7 +317,7 @@
             this.mnuSave,
             this.mnuSaveAs,
             this.toolStripSeparator2,
-            this.چاپToolStripMenuItem,
+            this.mnuPrint,
             this.toolStripSeparator3,
             this.mnuExit});
             this.فایلToolStripMenuItem.Name = "فایلToolStripMenuItem";
@@ -379,13 +381,14 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(239, 6);
             // 
-            // چاپToolStripMenuItem
+            // mnuPrint
             // 
-            this.چاپToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_print_64;
-            this.چاپToolStripMenuItem.Name = "چاپToolStripMenuItem";
-            this.چاپToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.چاپToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.چاپToolStripMenuItem.Text = "چاپ";
+            this.mnuPrint.Image = global::NotePadeFarsi.Properties.Resources.icons8_print_64;
+            this.mnuPrint.Name = "mnuPrint";
+            this.mnuPrint.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.mnuPrint.Size = new System.Drawing.Size(242, 22);
+            this.mnuPrint.Text = "چاپ";
+            this.mnuPrint.Click += new System.EventHandler(this.mnuPrint_Click);
             // 
             // toolStripSeparator3
             // 
@@ -599,6 +602,14 @@
             // 
             this.fontDialog.Font = new System.Drawing.Font("B Nazanin", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // printDialog
+            // 
+            this.printDialog.UseEXDialog = true;
+            // 
+            // printDocument
+            // 
+            this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -650,7 +661,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnuSave;
         private System.Windows.Forms.ToolStripMenuItem mnuSaveAs;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem چاپToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuPrint;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem mnuExit;
         private System.Windows.Forms.ToolStripMenuItem ویرایشToolStripMenuItem;
@@ -689,6 +700,8 @@
         private System.Windows.Forms.OpenFileDialog openDialog;
         private System.Windows.Forms.FontDialog fontDialog;
         private System.Windows.Forms.ToolStripMenuItem mnuDelete;
+        private System.Windows.Forms.PrintDialog printDialog;
+        private System.Drawing.Printing.PrintDocument printDocument;
     }
 }
 
