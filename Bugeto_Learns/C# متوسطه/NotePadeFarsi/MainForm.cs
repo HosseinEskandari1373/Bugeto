@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.IO;
 using System.Windows.Forms;
-using System.Drawing.Printing;
 
 namespace NotePadeFarsi
 {
@@ -254,6 +254,12 @@ namespace NotePadeFarsi
             {
                 e.HasMorePages = false;
             }
+        }
+
+        private void mnuSearch_Click(object sender, EventArgs e)
+        {
+            frmSearch search = new frmSearch(this);
+            search.ShowDialog();
         }
     }
 }

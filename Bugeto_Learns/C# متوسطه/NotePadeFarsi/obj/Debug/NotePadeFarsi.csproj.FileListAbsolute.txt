@@ -12,6 +12,7 @@ C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسط
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\bin\Debug\NotePadeFarsi.exe
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\bin\Debug\NotePadeFarsi.pdb
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.csproj.AssemblyReference.cache
+C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.frmSearch.resources
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.MainForm.resources
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.Properties.Resources.resources
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.csproj.GenerateResource.cache
