@@ -76,6 +76,7 @@
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "لغو";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // grpTypeSearch
             // 
@@ -91,6 +92,7 @@
             // rdbTypeSearchContains
             // 
             this.rdbTypeSearchContains.AutoSize = true;
+            this.rdbTypeSearchContains.Checked = true;
             this.rdbTypeSearchContains.Location = new System.Drawing.Point(79, 60);
             this.rdbTypeSearchContains.Name = "rdbTypeSearchContains";
             this.rdbTypeSearchContains.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -108,7 +110,6 @@
             this.rdbTypeSearchWord.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.rdbTypeSearchWord.Size = new System.Drawing.Size(98, 17);
             this.rdbTypeSearchWord.TabIndex = 0;
-            this.rdbTypeSearchWord.TabStop = true;
             this.rdbTypeSearchWord.Text = "دقیقا همین کلمه";
             this.rdbTypeSearchWord.UseVisualStyleBackColor = true;
             // 
@@ -126,6 +127,7 @@
             // rdbJahatSearchDown
             // 
             this.rdbJahatSearchDown.AutoSize = true;
+            this.rdbJahatSearchDown.Checked = true;
             this.rdbJahatSearchDown.Location = new System.Drawing.Point(23, 47);
             this.rdbJahatSearchDown.Name = "rdbJahatSearchDown";
             this.rdbJahatSearchDown.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -143,7 +145,6 @@
             this.rdbJahatSearchTop.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.rdbJahatSearchTop.Size = new System.Drawing.Size(51, 17);
             this.rdbJahatSearchTop.TabIndex = 0;
-            this.rdbJahatSearchTop.TabStop = true;
             this.rdbJahatSearchTop.Text = "به بالا";
             this.rdbJahatSearchTop.UseVisualStyleBackColor = true;
             // 
@@ -164,6 +165,7 @@
             this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmSearch";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmClosing);
             this.grpTypeSearch.ResumeLayout(false);
             this.grpTypeSearch.PerformLayout();
             this.grpJahatSearch.ResumeLayout(false);

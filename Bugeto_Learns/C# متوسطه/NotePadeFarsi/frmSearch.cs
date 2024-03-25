@@ -1,4 +1,7 @@
-﻿using System.Drawing;
+﻿using NotePadeFarsi.Models;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace NotePadeFarsi
@@ -6,6 +9,8 @@ namespace NotePadeFarsi
     public partial class frmSearch : Form
     {
         MainForm mainForm;
+        List<SearchResult> searchResults = new List<SearchResult>();
+        int generalStartIndex = -1;
         public frmSearch(MainForm frmMain)
         {
             InitializeComponent();
@@ -17,24 +22,105 @@ namespace NotePadeFarsi
             string searchKey = txtBoxSearch.Text;
             int startIndex = 0;
 
+            mainForm.richText.SelectionBackColor = mainForm.richText.BackColor;
+
+            if (searchResults.Count() > 0)
+            {
+                ShowResultSelected(rdbJahatSearchDown.Checked);
+                return;
+            }
+            else
+            {
+                searchResults = new List<SearchResult>();
+            }
+
             while (startIndex < mainForm.richText.TextLength)
             {
-                // Start Index
-                int wordStartIndex = mainForm.richText.Find(searchKey, startIndex, RichTextBoxFinds.None);
+                RichTextBoxFinds richTextBoxFinds = RichTextBoxFinds.None;
+
+                if (rdbTypeSearchWord.Checked)
+                {
+                    richTextBoxFinds = RichTextBoxFinds.WholeWord;
+                }
+
+                int wordStartIndex = mainForm.richText.Find(searchKey, startIndex, richTextBoxFinds);
 
                 if (wordStartIndex != -1)
                 {
-                    mainForm.richText.SelectionStart = wordStartIndex;
-                    mainForm.richText.SelectionLength = searchKey.Length;
-                    mainForm.richText.SelectionBackColor = Color.Yellow;
+                    searchResults.Add(new SearchResult()
+                    {
+                        SelectionStart = wordStartIndex,
+                        SelectionLength = searchKey.Length,
+                        SearchKey = searchKey
+                    });
+                }
+                else
+                    break;
 
-                    startIndex = wordStartIndex + searchKey.Length;
+                startIndex = wordStartIndex + searchKey.Length;
+            }
+
+            ShowResultSelected(rdbJahatSearchDown.Checked);
+        }
+
+        private void ShowResultSelected(bool IsDown)
+        {
+            try
+            {
+                if (IsDown)
+                {
+                    generalStartIndex++;
                 }
                 else
                 {
-                    break;
+                    generalStartIndex--;
+                }
+
+                var selected = searchResults[generalStartIndex];
+
+                mainForm.richText.SelectionStart = selected.SelectionStart;
+                mainForm.richText.SelectionLength = selected.SelectionLength;
+                mainForm.richText.SelectionBackColor = Color.Yellow;
+
+                if (searchResults.Count <= generalStartIndex)
+                {
+                    generalStartIndex = 0;
+                    searchResults = new List<SearchResult>();
                 }
             }
+            catch (System.Exception)
+            {
+                if (IsDown)
+                {
+                    generalStartIndex--;
+                }
+                else
+                {
+                    generalStartIndex++;
+                }
+
+                var selected = searchResults[generalStartIndex];
+
+                mainForm.richText.SelectionStart = selected.SelectionStart;
+                mainForm.richText.SelectionLength = selected.SelectionLength;
+                mainForm.richText.SelectionBackColor = Color.Yellow;
+
+                if (searchResults.Count <= generalStartIndex)
+                {
+                    generalStartIndex = 0;
+                    searchResults = new List<SearchResult>();
+                }
+            }
+        }
+
+        private void frmClosing(object sender, FormClosingEventArgs e)
+        {
+            mainForm.richText.SelectionBackColor = mainForm.richText.BackColor;
+        }
+
+        private void btnCancel_Click(object sender, System.EventArgs e)
+        {
+            this.Close();
         }
     }
 }
