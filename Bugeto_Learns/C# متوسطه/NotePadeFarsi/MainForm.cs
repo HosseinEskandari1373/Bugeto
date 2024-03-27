@@ -18,6 +18,10 @@ namespace NotePadeFarsi
             richText.Font = fontDialog.Font;
         }
 
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
         private void MenuItemNewFile_Click(object sender, System.EventArgs e)
         {
             if (manageRichText == false)
@@ -260,6 +264,12 @@ namespace NotePadeFarsi
         {
             frmSearch search = new frmSearch(this);
             search.ShowDialog();
+        }
+
+        private void mnuReplace_Click(object sender, EventArgs e)
+        {
+            frmReplace replace = new frmReplace(this);
+            replace.ShowDialog();
         }
     }
 }

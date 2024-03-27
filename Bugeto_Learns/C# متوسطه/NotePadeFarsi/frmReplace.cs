@@ -1,4 +1,5 @@
 ﻿using NotePadeFarsi.Models;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -6,18 +7,28 @@ using System.Windows.Forms;
 
 namespace NotePadeFarsi
 {
-    public partial class frmSearch : Form
+    public partial class frmReplace : Form
     {
         MainForm mainForm;
         List<SearchResult> searchResults = new List<SearchResult>();
         int generalStartIndex = -1;
-        public frmSearch(MainForm frmMain)
+        public frmReplace(MainForm frmMain)
         {
             InitializeComponent();
             this.mainForm = frmMain;
         }
 
-        private void BtnSearch_Click(object sender, System.EventArgs e)
+        private void frmReplace_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            Search();
+        }
+
+        private void Search()
         {
             string searchKey = txtBoxSearch.Text;
             int startIndex = 0;
@@ -123,9 +134,24 @@ namespace NotePadeFarsi
             this.Close();
         }
 
-        private void frmSearch_Load(object sender, System.EventArgs e)
+        private void btnReplace_Click(object sender, EventArgs e)
         {
+            Search();
+            if (!string.IsNullOrEmpty(mainForm.richText.SelectedText))
+            {
+                mainForm.richText.SelectionBackColor = mainForm.richText.BackColor;
+                mainForm.richText.SelectedText = mainForm.richText.SelectedText.Replace(mainForm.richText.SelectedText, txtReplace.Text);
+            }
+        }
 
+        private void btnReplaceAll_Click(object sender, EventArgs e)
+        {
+            Search();
+            if (!string.IsNullOrEmpty(mainForm.richText.SelectedText))
+            {
+                mainForm.richText.SelectionBackColor = mainForm.richText.BackColor;
+                mainForm.richText.Text = mainForm.richText.Text.Replace(mainForm.richText.SelectedText, txtReplace.Text);
+            }
         }
     }
 }
