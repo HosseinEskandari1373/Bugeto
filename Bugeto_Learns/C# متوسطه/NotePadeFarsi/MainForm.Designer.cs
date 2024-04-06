@@ -37,6 +37,8 @@
             this.lblCharCountValue = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblWordCountName = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblWordCoundValue = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblTimer = new System.Windows.Forms.ToolStripStatusLabel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.richText = new System.Windows.Forms.RichTextBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -84,14 +86,12 @@
             this.راهنماToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.راهنمایاستفادهازبرنامهToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.گزارشخطاToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.دربارهماToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.saveDialog = new System.Windows.Forms.SaveFileDialog();
             this.openDialog = new System.Windows.Forms.OpenFileDialog();
             this.fontDialog = new System.Windows.Forms.FontDialog();
             this.printDialog = new System.Windows.Forms.PrintDialog();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblTimer = new System.Windows.Forms.ToolStripStatusLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -164,6 +164,18 @@
             this.lblWordCoundValue.Name = "lblWordCoundValue";
             this.lblWordCoundValue.Size = new System.Drawing.Size(14, 24);
             this.lblWordCoundValue.Text = "0";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(68, 24);
+            this.toolStripStatusLabel1.Text = "تاریخ و زمان:";
+            // 
+            // lblTimer
+            // 
+            this.lblTimer.Name = "lblTimer";
+            this.lblTimer.Size = new System.Drawing.Size(0, 24);
             // 
             // panel3
             // 
@@ -570,7 +582,7 @@
             this.راهنماToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.راهنمایاستفادهازبرنامهToolStripMenuItem,
             this.گزارشخطاToolStripMenuItem,
-            this.دربارهماToolStripMenuItem});
+            this.mnuAbout});
             this.راهنماToolStripMenuItem.Name = "راهنماToolStripMenuItem";
             this.راهنماToolStripMenuItem.Size = new System.Drawing.Size(48, 26);
             this.راهنماToolStripMenuItem.Text = "راهنما";
@@ -588,12 +600,13 @@
             this.گزارشخطاToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.گزارشخطاToolStripMenuItem.Text = "گزارش خطا";
             // 
-            // دربارهماToolStripMenuItem
+            // mnuAbout
             // 
-            this.دربارهماToolStripMenuItem.Image = global::NotePadeFarsi.Properties.Resources.icons8_call_64;
-            this.دربارهماToolStripMenuItem.Name = "دربارهماToolStripMenuItem";
-            this.دربارهماToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.دربارهماToolStripMenuItem.Text = "درباره ما";
+            this.mnuAbout.Image = global::NotePadeFarsi.Properties.Resources.icons8_call_64;
+            this.mnuAbout.Name = "mnuAbout";
+            this.mnuAbout.Size = new System.Drawing.Size(195, 22);
+            this.mnuAbout.Text = "درباره ما";
+            this.mnuAbout.Click += new System.EventHandler(this.mnuAbout_Click);
             // 
             // saveDialog
             // 
@@ -617,18 +630,6 @@
             // printDocument
             // 
             this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(68, 24);
-            this.toolStripStatusLabel1.Text = "تاریخ و زمان:";
-            // 
-            // lblTimer
-            // 
-            this.lblTimer.Name = "lblTimer";
-            this.lblTimer.Size = new System.Drawing.Size(0, 24);
             // 
             // timer1
             // 
@@ -709,7 +710,7 @@
         private System.Windows.Forms.ToolStripMenuItem راهنماToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem راهنمایاستفادهازبرنامهToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem گزارشخطاToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem دربارهماToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuAbout;
         private System.Windows.Forms.ToolStripStatusLabel lblCharCountValue;
         private System.Windows.Forms.ToolStripStatusLabel lblWordCountName;
         private System.Windows.Forms.ToolStripStatusLabel lblWordCoundValue;

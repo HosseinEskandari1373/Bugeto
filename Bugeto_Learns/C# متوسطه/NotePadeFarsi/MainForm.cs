@@ -276,5 +276,11 @@ namespace NotePadeFarsi
         {
             lblTimer.Text = DateTime.Now.ToString();
         }
+
+        private void mnuAbout_Click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
+        }
     }
 }

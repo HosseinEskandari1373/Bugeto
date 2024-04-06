@@ -63,6 +63,16 @@ namespace NotePadeFarsi.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bugeto_bugtoLogo {
+            get {
+                object obj = ResourceManager.GetObject("bugeto-bugtoLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_back_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-back-48", resourceCulture);
@@ -246,6 +256,16 @@ namespace NotePadeFarsi.Properties {
         internal static System.Drawing.Bitmap icons8_select_all_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-select-all-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap softTitle {
+            get {
+                object obj = ResourceManager.GetObject("softTitle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

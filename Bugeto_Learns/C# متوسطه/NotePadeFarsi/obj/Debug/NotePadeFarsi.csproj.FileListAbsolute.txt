@@ -20,3 +20,4 @@ C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسط
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.exe
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.pdb
 C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.frmReplace.resources
+C:\Users\14025492\source\repos\ESH\Git\Learns\Bugeto\Bugeto_Learns\C# متوسطه\NotePadeFarsi\obj\Debug\NotePadeFarsi.About.resources

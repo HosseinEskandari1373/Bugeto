@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{5540A08E-4153-432C-9DD4-6A1D0709E88A}|C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\NotePadeFarsi.csproj|C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\c# \u0645\u062A\u0648\u0633\u0637\u0647\\notepadefarsi\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5540A08E-4153-432C-9DD4-6A1D0709E88A}|C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\NotePadeFarsi.csproj|solutionrelative:c# \u0645\u062A\u0648\u0633\u0637\u0647\\notepadefarsi\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5540A08E-4153-432C-9DD4-6A1D0709E88A}|C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\NotePadeFarsi.csproj|c:\\users\\14025492\\source\\repos\\esh\\git\\learns\\bugeto\\bugeto_learns\\c# \u0645\u062A\u0648\u0633\u0637\u0647\\notepadefarsi\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5540A08E-4153-432C-9DD4-6A1D0709E88A}|C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\NotePadeFarsi.csproj|solutionrelative:c# \u0645\u062A\u0648\u0633\u0637\u0647\\notepadefarsi\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5540A08E-4153-432C-9DD4-6A1D0709E88A}|C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\NotePadeFarsi.csproj|c:\\users\\14025492\\source\\repos\\esh\\git\\learns\\bugeto\\bugeto_learns\\c# \u0645\u062A\u0648\u0633\u0637\u0647\\notepadefarsi\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5540A08E-4153-432C-9DD4-6A1D0709E88A}|C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\NotePadeFarsi.csproj|solutionrelative:c# \u0645\u062A\u0648\u0633\u0637\u0647\\notepadefarsi\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
@@ -31,6 +39,31 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T09:12:49.806Z",
               "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cs",
+              "DocumentMoniker": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs",
+              "RelativeDocumentMoniker": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs",
+              "ToolTip": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs",
+              "RelativeToolTip": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:30:11.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs",
+              "RelativeDocumentMoniker": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs",
+              "ToolTip": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs [Design]",
+              "RelativeToolTip": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\About.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:15:13.998Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -65,7 +98,7 @@
               "RelativeDocumentMoniker": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\MainForm.cs",
               "ToolTip": "C:\\Users\\14025492\\source\\repos\\ESH\\Git\\Learns\\Bugeto\\Bugeto_Learns\\C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\MainForm.cs",
               "RelativeToolTip": "C# \u0645\u062A\u0648\u0633\u0637\u0647\\NotePadeFarsi\\MainForm.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAcwBgBAAAAAAAA",
+              "ViewState": "AQIAANkAAAAAAAAAAAASwBoBAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T13:49:43.801Z",
               "EditorCaption": ""
