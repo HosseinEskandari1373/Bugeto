@@ -33,7 +33,7 @@
             this.rdbTypeSearchWord = new System.Windows.Forms.RadioButton();
             this.btnCancel = new System.Windows.Forms.Button();
             this.BtnSearch = new System.Windows.Forms.Button();
-            this.txtBoxSearch = new System.Windows.Forms.TextBox();
+            this.txtSearchReplace = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
             this.grpJahatSearch = new System.Windows.Forms.GroupBox();
             this.rdbJahatSearchDown = new System.Windows.Forms.RadioButton();
@@ -100,12 +100,12 @@
             this.BtnSearch.UseVisualStyleBackColor = true;
             this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
-            // txtBoxSearch
+            // txtSearchReplace
             // 
-            this.txtBoxSearch.Location = new System.Drawing.Point(70, 30);
-            this.txtBoxSearch.Name = "txtBoxSearch";
-            this.txtBoxSearch.Size = new System.Drawing.Size(312, 20);
-            this.txtBoxSearch.TabIndex = 7;
+            this.txtSearchReplace.Location = new System.Drawing.Point(70, 30);
+            this.txtSearchReplace.Name = "txtSearchReplace";
+            this.txtSearchReplace.Size = new System.Drawing.Size(312, 20);
+            this.txtSearchReplace.TabIndex = 7;
             // 
             // lblSearch
             // 
@@ -199,7 +199,7 @@
             this.Controls.Add(this.grpTypeSearch);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.BtnSearch);
-            this.Controls.Add(this.txtBoxSearch);
+            this.Controls.Add(this.txtSearchReplace);
             this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.grpJahatSearch);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -225,7 +225,7 @@
         private System.Windows.Forms.RadioButton rdbTypeSearchWord;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button BtnSearch;
-        private System.Windows.Forms.TextBox txtBoxSearch;
+        private System.Windows.Forms.TextBox txtSearchReplace;
         private System.Windows.Forms.Label lblSearch;
         private System.Windows.Forms.GroupBox grpJahatSearch;
         private System.Windows.Forms.RadioButton rdbJahatSearchDown;
