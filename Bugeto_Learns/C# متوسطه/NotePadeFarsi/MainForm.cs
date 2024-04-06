@@ -271,5 +271,10 @@ namespace NotePadeFarsi
             frmReplace replace = new frmReplace(this);
             replace.ShowDialog();
         }
+
+        private void TimerDateClick(object sender, EventArgs e)
+        {
+            lblTimer.Text = DateTime.Now.ToString();
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -89,6 +90,9 @@
             this.fontDialog = new System.Windows.Forms.FontDialog();
             this.printDialog = new System.Windows.Forms.PrintDialog();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.lblTimer = new System.Windows.Forms.ToolStripStatusLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.statusBar.SuspendLayout();
@@ -124,7 +128,9 @@
             this.lblCharCount,
             this.lblCharCountValue,
             this.lblWordCountName,
-            this.lblWordCoundValue});
+            this.lblWordCoundValue,
+            this.toolStripStatusLabel1,
+            this.lblTimer});
             this.statusBar.Location = new System.Drawing.Point(0, -5);
             this.statusBar.Name = "statusBar";
             this.statusBar.Size = new System.Drawing.Size(768, 29);
@@ -612,6 +618,24 @@
             // 
             this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument_PrintPage);
             // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(68, 24);
+            this.toolStripStatusLabel1.Text = "تاریخ و زمان:";
+            // 
+            // lblTimer
+            // 
+            this.lblTimer.Name = "lblTimer";
+            this.lblTimer.Size = new System.Drawing.Size(0, 24);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.TimerDateClick);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -705,6 +729,9 @@
         private System.Windows.Forms.PrintDialog printDialog;
         private System.Drawing.Printing.PrintDocument printDocument;
         public System.Windows.Forms.RichTextBox richText;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripStatusLabel lblTimer;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
